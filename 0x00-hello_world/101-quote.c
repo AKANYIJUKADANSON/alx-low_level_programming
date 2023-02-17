@@ -2,10 +2,10 @@
 #include <unistd.h>
 
 /**
- *printing exactly "and that piece of art is useful"
+ * main - printing exactly "and that piece of art is useful"
  * - Dora Korpar, 2015-10-19",
- * followed by a new line, to the standard error.
- * Return: should be (1) 
+ * followed by new line, to the standard error.
+ * Return:should be (1)
  */
 int main(void)
 {
