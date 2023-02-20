@@ -1,21 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base 10 starting from 0,
- * followed by a new line, using putchar
+ * main - printing all the numbers of base 16 in lowercase,
+ * followed by a new line. Using only putchar thrice
  * Return:(0) is a success
  */
 int main(void)
 {
-	int n = 48;
+	int n;
+	char ch;
 
-	while (n <= 70)
+	for (n = 48; n < 58; n++)
 	{
-	if (n != 58 && n != 58 && n != 59 && n != 60 && n != 61 && n != 62 && n != 63 && n != 64 )
-	    {
 		putchar(n);
-	    }
-		n++;
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
