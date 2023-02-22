@@ -2,13 +2,14 @@
 
 /**
  * add - adds two integers and returns the result
- * @a and @b: are the two integers to add
+ * @a: is the first integer
+ * @b: is the second integer
  * Return: return result
  */
 int add(int a, int b)
 {
-    int x;
-    x = a + b;
-    _putchar(x);
-    return (0);
+	int x;
+
+	x = a + b;
+	return (0);
 }
