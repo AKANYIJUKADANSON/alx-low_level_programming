@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * mul - multiplies two digits
- * @c: is the first parameter
- * @b: is another parameter
- * Return: (0) is always a success
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: function result is returned
  */
 int mul(int a, int b)
 {
