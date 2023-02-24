@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _mul - multiplies two digits
+ * mul - multiplies two digits
  * @c: is the first parameter
  * @b: is another parameter
  * Return: (0) is always a success
